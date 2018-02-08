@@ -9,7 +9,7 @@
 <body>
 <div class="wrap">
     <div class="main">
-        <a href="http://mtons.com/email/bind/${userId}?code=${code}&type=${type}">点此链接完成绑定邮箱</a>
+        <a href="http://127.0.0.1:8080/mblog/email/bind/${userId}?code=${code}&type=${type}">点此链接完成绑定邮箱</a>
     </div>
 </div>
 </body>

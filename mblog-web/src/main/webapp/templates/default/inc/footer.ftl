@@ -20,10 +20,9 @@
 		</div>
 	</div>
 	<div class="container copy-right">
-		<span>${site_copyright} <a
-			href="http://www.miitbeian.gov.cn/" target="_blank">${site_icp}</a>
+		<span>${site_copyright} <a href="http://www.miitbeian.gov.cn/" target="_blank">${site_icp}</a>
 		</span>
-		<span class="pull-right">Powered By <a href="http://mtons.com/?copyright" target="_blank">Mtons</a></span>
+		<span class="pull-right">Powered By <a href="http://127.0.0.1:8080/mblog/?copyright" target="_blank">Ygz</a></span>
 	</div>
 
 </footer>

@@ -36,14 +36,14 @@
         <label class="col-lg-2 control-label">copyright</label>
         <div class="col-lg-5">
             <input type="text" name="site_copyright" class="form-control" value="${configs['site_copyright'].value}">
-            <p class="help-block">示例: Copyright © Mtons</p>
+            <p class="help-block">示例: Copyright © Ygz</p>
         </div>
     </div>
     <div class="form-group">
         <label class="col-lg-2 control-label">备案号</label>
         <div class="col-lg-5">
             <input type="text" name="site_icp" class="form-control" value="${configs['site_icp'].value}">
-            <p class="help-block">示例: 京ICP备12345678号</p>
+            <p class="help-block">示例: 京ICP备123456789号</p>
         </div>
     </div>
 	<div class="form-group">

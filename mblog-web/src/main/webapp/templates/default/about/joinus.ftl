@@ -19,10 +19,10 @@
             <div class="content-body entry-content panel-body ">
                 <div class="markdown-body" id="emojify">
                     <p><strong>联系我们</strong></p>
-                    <p>友情链接交换、意见反馈、商业合作, 您可以 <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=AGxhbmdoc3VAZm94bWFpbC5jb20" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png"/></a></p>
+                    <p>友情链接交换、意见反馈、商业合作, 您可以 <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=vo_Ji46JiYmKjoz_z8_Q3dHT" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png"/></a></p>
                     <p><strong>加入我们</strong><br/></p>
                     <p>如果你和我们有一样的梦想、有激情，别犹豫，加入我们的开源事业。</p>
-                    <p>QQ群：378433412 <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=a26a98f0ba0d5886fe79adac4977b0b42b7ade6f9a10404074d12251ebcca3a8"><img border="0" src="http://pub.idqqimg.com/wpa/images/channel.png" alt="Mtons" title="Mtons"></a></p>
+                    <p>QQ群：467047721 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=a1590027e0eb1e5eda71e88b3caf08415f3e25e29d484c5ffc3b7c31a7bfaf3e"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="Java技术学习交流群" title="Java技术学习交流群"></a></p>
 				</div>
             </div>
             <div class="panel-footer operate">
