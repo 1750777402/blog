@@ -1,12 +1,3 @@
-/*
-+--------------------------------------------------------------------------
-|   Mblog [#RELEASE_VERSION#]
-|   ========================================
-|   Copyright (c) 2014, 2015 mtons. All Rights Reserved
-|   http://www.mtons.com
-|
-+---------------------------------------------------------------------------
-*/
 package mblog.web.controller;
 
 import mblog.base.context.AppContext;
@@ -37,7 +28,7 @@ import java.util.Date;
 /**
  * Controller 基类
  * 
- * @author langhsu
+ * @author zx
  * 
  */
 public class BaseController {

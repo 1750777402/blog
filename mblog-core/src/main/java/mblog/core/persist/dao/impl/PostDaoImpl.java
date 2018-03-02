@@ -1,18 +1,11 @@
-/*
-+--------------------------------------------------------------------------
-|   Mblog [#RELEASE_VERSION#]
-|   ========================================
-|   Copyright (c) 2014, 2015 mtons. All Rights Reserved
-|   http://www.mtons.com
-|
-+---------------------------------------------------------------------------
-*/
 package mblog.core.persist.dao.impl;
 
-import mblog.core.data.Post;
-import mblog.core.persist.dao.custom.PostDaoCustom;
-import mblog.core.persist.entity.PostPO;
-import mblog.core.persist.utils.BeanMapUtils;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
 import org.apache.commons.lang3.StringUtils;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.search.Sort;
@@ -29,13 +22,13 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import java.util.ArrayList;
-import java.util.List;
+import mblog.core.data.Post;
+import mblog.core.persist.dao.custom.PostDaoCustom;
+import mblog.core.persist.entity.PostPO;
+import mblog.core.persist.utils.BeanMapUtils;
 
 /**
- * @author langhsu
+ * @author zx
  *
  */
 public class PostDaoImpl implements PostDaoCustom {

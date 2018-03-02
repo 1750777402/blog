@@ -9,7 +9,7 @@ package mblog.base.lang;
  *
  */
 public interface Consts {
-	String MTONS_CONFIG = "/mtons.properties";
+	String MTONS_CONFIG = "/ygz.properties";
 
 	/**
 	 * 默认头像

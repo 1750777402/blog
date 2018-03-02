@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author Beldon 2015/10/31
+ * @author zx 
  */
 @Component
 public class ViewCopyrightPugin implements ChannelControllerHook.ChannelControllerInterceptorListener {

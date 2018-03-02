@@ -1,24 +1,26 @@
 package mblog.plugin.example;
 
-import mblog.core.data.AccountProfile;
-import mblog.core.data.Post;
-import mblog.core.hook.interceptor.desk.ChannelControllerHook;
-import mblog.core.persist.service.CommentService;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
-import org.hibernate.Query;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.util.List;
+import mblog.core.data.AccountProfile;
+import mblog.core.data.Post;
+import mblog.core.hook.interceptor.desk.ChannelControllerHook;
+import mblog.core.persist.entity.CommentPO;
+import mblog.core.persist.service.CommentService;
 
 /**
- * @author Beldon
+ * @author zx
  */
 @Component
 public class HidenContentPugin implements ChannelControllerHook.ChannelControllerInterceptorListener {
@@ -66,7 +68,7 @@ public class HidenContentPugin implements ChannelControllerHook.ChannelControlle
             if (profile.getId() == userId) {
                 return false;
             }
-            List l = commentService.findAllByAuthorIdAndToId(profile.getId(), id);
+            List<CommentPO> l = commentService.findAllByAuthorIdAndToId(profile.getId(), id);
             if (l.size() > 0) {
                 return false;
             }

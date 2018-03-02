@@ -15,7 +15,7 @@
 		<property name="locations">
 			<list>
 				<value>classpath:init.properties</value>
-				<value>classpath:mtons.properties</value>
+				<value>classpath:ygz.properties</value>
 			</list>
 		</property>
 	</bean>

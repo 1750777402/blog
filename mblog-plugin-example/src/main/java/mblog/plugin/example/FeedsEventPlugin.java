@@ -1,14 +1,13 @@
 package mblog.plugin.example;
 
-import mblog.core.event.FeedsEvent;
-import mblog.core.hook.event.FeedsEventHook;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 
-import java.text.MessageFormat;
+import mblog.core.event.FeedsEvent;
+import mblog.core.hook.event.FeedsEventHook;
 
 /**
- * @author Beldon 2015/10/29
+ * @author zx 
  */
 @Component
 public class FeedsEventPlugin implements FeedsEventHook.FeedsEventListener {
